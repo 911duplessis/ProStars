@@ -1,16 +1,16 @@
 # PROSTARS™ — Franchise / Licensing Model
 
-> Companion to `PROSTARS_MASTER_PLAN.md` §7–8. This document is intentionally the least urgent of the seven — it exists so the *option* is well-understood, not because PROSTARS should pursue it in Year 1. It is written against Elanza's own inside view of the Playball franchise model, since that lived experience is the most valuable competitive intelligence this plan has access to.
+> Companion to `PROSTARS_MASTER_PLAN.md` §7–8. This document is intentionally the least urgent of the seven — it exists so the *option* is well-understood, not because PROSTARS should pursue it in Year 1. It draws on Elanza's own professional experience delivering children's programmes, including with Playball, since that direct view of an established franchise model is valuable competitive intelligence this plan can draw on.
 
 ---
 
-## What Playball's model gets right (worth keeping)
+## What an established franchise model like Playball's gets right (worth keeping)
 - A recognisable national name lowers the trust barrier for a new parent enrolling their child sight-unseen.
 - A structured curriculum means quality doesn't depend entirely on one instructor's improvisation.
 - Territory-based coach/franchisee assignment prevents two providers competing for the same school hall.
 
 ## What it gets wrong (per the founder's direct experience — the actual differentiation)
-- **Administrative weight crowds out judgment.** Elanza's own frustration — needing to clear box-ticking requirements before she could do the part of the job she was good at — suggests the franchise's compliance layer is optimised for consistency-at-scale over instructor discretion. That's a reasonable trade-off for a large franchisor; it's the wrong trade-off for a brand whose whole thesis is "read the child in front of you."
+- **Administrative weight crowds out judgment.** A heavy compliance layer, common to large franchisors, is optimised for consistency-at-scale over instructor discretion. That's a reasonable trade-off for a large franchisor; it's the wrong trade-off for a brand whose whole thesis is "read the child in front of you."
 - **No visible developmental throughline for parents.** Sport skills are visible session to session; the deeper "is my child becoming more resilient/confident" story is not surfaced in any structured way. That's precisely the gap PROSTARS's outer-layer proof system (`BRAND_IDENTITY.md`, `WEBSITE_BLUEPRINT.md`) is built to close.
 - **Instructor-first, not method-first branding.** A franchise model built around six generic sports (per the Proteus prototype, which followed this pattern too) commoditises the instructor. PROSTARS's Method is the thing being licensed — the instructor's job is to deliver it with judgment, not follow a rigid script.
 
@@ -45,5 +45,5 @@ Only worth building once there is a proven, documented certification pipeline an
 - Sport Canterbury/Tū Manawa-style regional funding relationships are a repeatable channel-opening playbook other coaches could follow.
 
 **Against, honestly:**
-- The brand's core credibility currently rests on Elanza's personal teaching-degree-plus-Playball-experience story. A licensed coach without that background needs the certification programme to be genuinely rigorous, not just a badge — otherwise the brand's authenticity claim (the thing that makes it better than Playball) erodes the moment it scales.
+- The brand's core credibility currently rests on Elanza's personal track record as a children's development specialist. A licensed coach without that background needs the certification programme to be genuinely rigorous, not just a badge — otherwise the brand's authenticity claim (the thing that makes it better than a generic sports franchise) erodes the moment it scales.
 - No franchise/licensing revenue should be modelled into Year 1–2 financials. This document is a map for later, not a funding assumption for now.
