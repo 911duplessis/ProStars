@@ -12,8 +12,8 @@ Founder: Elanza Muller. Prepared: July 2026.
 This plan is not a cold-start. It is built on:
 
 1. A full strategic research arc Elanza's brother, Stiaan du Plessis, ran with her over WhatsApp between May and June 2026 — including the "Inner Readiness" category concept, Canterbury market signals, and pricing logic (archived in `911duplessis/Mullers/03_PROKIDS`).
-2. A first prototype ("Proteus Kids Sports") that Stiaan built quickly in May 2026 to give the idea a visual home while they talked (`iamstiaan/Proteus`, live at iamstiaan.github.io/Proteus). That prototype is a generic six-sport franchise site with a lion mascot and a merch store — useful as a proof that *something* could be built fast, but it is not the brand. It never answers "why this and not Playball."
-3. Elanza's own lived experience as a Playball instructor, which is where the real differentiation comes from — not from a mascot, from a frustration.
+2. A first prototype ("Proteus Kids Sports") that Stiaan built quickly in May 2026 to give the idea a visual home while they talked (`iamstiaan/Proteus`, live at iamstiaan.github.io/Proteus). That prototype is a generic six-sport franchise site with a lion mascot and a merch store — useful as a proof that *something* could be built fast, but it is not the brand. It never answers what makes PROSTARS genuinely different.
+3. Elanza's own years of hands-on experience helping young children build confidence, movement skills, and resilience — which is where the real differentiation comes from: not a mascot, a recognition that parents want more than sport alone.
 
 The founder never said yes to a name or a direction in that first round. This document picks the thread back up, resolves the open questions Stiaan left her with, and gives PROSTARS a spine that the Proteus prototype didn't have.
 
@@ -21,17 +21,15 @@ The founder never said yes to a name or a direction in that first round. This do
 
 ## 1. Founder Story
 
-Elanza Muller has spent her career on the floor with children, not behind a desk designing programmes for them. She holds a teaching degree and has coached inside a national children's sports franchise — Playball — where she saw, up close, both what works and what quietly doesn't.
+Elanza Muller is an experienced children's development specialist. She has spent years working directly with young children — building their confidence, their movement skills, and their resilience, one session and one child at a time. She holds a teaching degree and has delivered children's programmes across Canterbury for years, including with established providers such as Playball, which gave her a close, practical view of what a good children's programme can do — and where even a good one runs out of range.
 
-What works: parents will show up, pay, and keep coming back for a class that makes their child visibly more confident, more coordinated, and happier at school pickup. That part of the model isn't broken.
+What she kept noticing, across all of that hands-on experience, wasn't a complaint about any one programme. It was a pattern: **parents want more for their child than a sport class alone can give them.** They want to see their child becoming genuinely more confident, more resilient, more capable of handling the hard moments — not just better at a drill. Most children's programmes are built to teach a skill. Few are built to make that deeper change visible to a parent. That recognition is where PROSTARS starts.
 
-What doesn't: the machinery underneath it. Instructors inside a big franchise are handed a script, a compliance checklist, and a territory — and very little room to actually respond to the kid in front of them. Elanza's own complaint, in her words to Stiaan, was sharp enough to become a running joke between them: she needed "a vervalste [fake] first aid certificate" just to get through the administrative hoops before she could get to the part of the job she was actually good at — being with children.
-
-She is also, separately, already a small business owner. Elanza runs EM Muller Services, a police-clearance and fingerprinting business serving South African expats across New Zealand, live at sapspoliceclearance.com. She has already done the unglamorous parts of running a company in NZ — compliance, a live website, Google Business, client trust — years before PROSTARS existed. PROSTARS is not a first-time founder's leap of faith. It's an experienced educator and an experienced small-business owner pointing the same skill set at the thing she actually loves.
+She is also, separately, already a small business owner. Elanza runs EM Muller Services, a police-clearance and fingerprinting business serving South African expats across New Zealand, live at sapspoliceclearance.com. She has already done the unglamorous parts of running a company in NZ — compliance, a live website, Google Business, client trust — years before PROSTARS existed. PROSTARS is not a first-time founder's leap of faith. It's an experienced children's development specialist and an experienced small-business owner pointing the same skill set at the thing she actually loves.
 
 She is a mother of two — Mila and Lienka — which means every judgment call PROSTARS makes about a child's dignity, pace, and readiness gets tested against her own kitchen table first.
 
-**The brand has to feel like her**: warm, direct, unimpressed by fluff, allergic to bureaucracy for its own sake, and completely serious about the idea that a child who feels safe and capable is worth more than a child who can do a perfect star jump. PROSTARS exists because Elanza already knows what the alternative looks like from the inside — and knows she can build something with more heart and less paperwork.
+**The brand has to feel like her**: warm, direct, unimpressed by fluff, and completely serious about the idea that a child who feels safe and capable is worth more than a child who can do a perfect star jump. PROSTARS exists because Elanza has spent years watching children grow, and finally built the programme that reflects what she's always believed they actually need.
 
 ---
 
@@ -143,7 +141,7 @@ Keep the MVP boring on purpose.
 |---|---|---|
 | Market demand | 16/20 | Verified NZ-wide parent anxiety about screen time/attention (70% top concern) and a documented psychology-services waitlist; Canterbury specifically has active council/Sport Canterbury interest in youth movement participation. Demand signal is real but not yet validated with paying PROSTARS customers. |
 | Competition | 14/20 | Crowded at the edges (gymnastics $7–15/session, coding $230–395/holiday block, sKids, Bricks4Kidz, Playball itself) but **no identified Canterbury competitor occupies the Inner Readiness positioning** — the gap between sport and clinical psychology is real and currently empty. |
-| Uniqueness | 17/20 | The PROSTARS METHOD's two-layer structure (inner pedagogy / outer proof) is a genuinely defensible framework, not just a values poster — and it's grounded in the founder's authentic, first-hand critique of the incumbent (Playball), which is hard to copy. |
+| Uniqueness | 17/20 | The PROSTARS METHOD's two-layer structure (inner pedagogy / outer proof) is a genuinely defensible framework, not just a values poster — and it's grounded in the founder's years of hands-on experience and her own recognition that parents want more than sport alone, which is hard to copy. |
 | Scalability | 13/20 | Coach-led, in-person delivery is inherently people-constrained; scaling requires a certification pipeline (see `FRANCHISE_MODEL.md`) which doesn't exist yet and depends entirely on Elanza's bandwidth to build it. |
 | Franchise potential | 14/20 | Strong *if* Option B/C ambition is chosen (see below) — the method is teachable and the proof-layer format (badges/certificates) already licenses well. Requires disciplined documentation before any franchise conversation is credible. |
 | Digital potential | 15/20 | Clean Phase 2/3 path on a modern, cheap stack; parent-progress-visibility features map directly onto the brand's core promise, so digital isn't bolted on — it's the proof engine. |

@@ -1,7 +1,7 @@
 # PROSTARS™ — Investor / Partner One-Pager
 
 **A children's development company for Canterbury, New Zealand.**
-Founder: Elanza Muller — teacher-trained, Playball-experienced, current owner of EM Muller Services (sapspoliceclearance.com).
+Founder: Elanza Muller — experienced children's development specialist, teacher-trained, current owner of EM Muller Services (sapspoliceclearance.com).
 
 ---
 
@@ -12,7 +12,7 @@ Canterbury parents are stuck between two unsatisfying options: generic sport cla
 **PROSTARS** delivers the **PROSTARS METHOD™** — a two-layer framework that teaches five inner-readiness traits (Presence, Resilience, Observation, Social Connection, Trying) through movement and play, and generates three outer, visible proof-points (Achievement, Respect, Strength) parents can see and share every week. Priced at **$22–25/session** — deliberately positioned in the gap between sport and psychology, where parents don't need to understand the pedagogy; they already feel the problem.
 
 ### Why Now, Why Her
-Founder Elanza Muller has a teaching degree, direct instructor experience inside Playball (where she saw first-hand how rigid, script-and-compliance-driven franchise delivery crowds out real judgment and leaves no visible developmental proof for parents), and is already a proven NZ small-business operator via EM Muller Services. This isn't a first-time founder's guess — it's an experienced educator building the version of this business she always wished existed.
+Founder Elanza Muller has a teaching degree and years of hands-on experience delivering children's programmes across Canterbury, including with established providers such as Playball. That experience built a clear recognition: parents want more for their child than a sport class alone can offer — visible proof their child is becoming more confident and resilient, not just more skilled. She's also already a proven NZ small-business operator via EM Muller Services. This isn't a first-time founder's guess — it's an experienced children's development specialist building the version of this business she always knew was missing.
 
 ### Market
 - Canterbury, NZ, immediate addressable market: primary-school-aged children (4–8 core, expanding to 12) across Christchurch.
@@ -23,7 +23,7 @@ Founder Elanza Muller has a teaching degree, direct instructor experience inside
 - **Phase 1 (now):** in-person weekly classes, holiday programmes, birthday experiences — no software spend. Target: $65–85k Year 1 at ~15 hrs/week (Option A baseline).
 - **Phase 2 (funded by Phase 1 revenue):** Next.js/Supabase/Vercel booking + parent-progress platform.
 - **Phase 3:** React Native app extending the same platform to child- and parent-facing mobile experiences.
-- **Phase 4 (optional, evaluated not assumed):** Certified Coach licensing model — flat fee + light royalty, method-first rather than script-first, avoiding the compliance-heavy structure that drove the founder away from her prior franchise experience. See `FRANCHISE_MODEL.md`.
+- **Phase 4 (optional, evaluated not assumed):** Certified Coach licensing model — flat fee + light royalty, method-first rather than script-first. See `FRANCHISE_MODEL.md`.
 
 ### Traction / Status
 - Full brand strategy, positioning research, and Canterbury market signal work completed by the founder's team in mid-2026 (archived in `911duplessis/Mullers/03_PROKIDS`).

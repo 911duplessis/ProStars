@@ -43,6 +43,6 @@
 1. Can she commit ~5–6 hours/week during school terms going forward?
 2. Is she willing to keep the school-principal relationship active for renewal, not just the initial yes?
 3. Is she okay staying at Option A scale without needing to decide on Option C yet?
-4. Does the Inner Readiness / PROSTARS METHOD positioning feel like something she can speak to confidently from her own teaching and Playball background?
+4. Does the Inner Readiness / PROSTARS METHOD positioning feel like something she can speak to confidently from her own years of hands-on experience with children's development?
 
 If the answer to all four is yes at Day 90, everything in this plan set — brand, website, app, franchise — is ready to build on top of a real, proven, paying local business, not a hypothesis.

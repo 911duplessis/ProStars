@@ -15,7 +15,7 @@ PROSTARS becomes the name Canterbury parents reach for the way they reach for Mo
 2. **Progress you can see.** Every session produces something a parent can point to.
 3. **No child left behind the room's pace.** Readiness is individual; the method adapts to the child, not the other way round.
 4. **Adults earn trust by showing their work.** Plain-language updates, not jargon, not silence.
-5. **Less paperwork, more presence.** A direct rejection of the bureaucracy Elanza experienced inside a big franchise — process exists to serve the child in the room, not the other way round.
+5. **Less paperwork, more presence.** Process exists to serve the child in the room, not the other way round — coaches spend their attention on kids, not on compliance for its own sake.
 
 ## Brand Personality
 Warm, direct, unimpressed by fluff, calmly confident, a little cheeky (in the way a good primary teacher is), fiercely protective of children's dignity. Speaks to parents like a trusted friend with a teaching degree, not like a corporate brochure. Never clinical, never twee.
@@ -33,7 +33,7 @@ Warm, direct, unimpressed by fluff, calmly confident, a little cheeky (in the wa
 
 ## Tagline Options
 1. **"Every Star Starts Somewhere."** — primary recommendation. Honest about process, not just outcome; works for a 4-year-old and a 12-year-old.
-2. **"Ready, Inside and Out."** — most directly encodes the inner/outer layer of the Method; best for B2B/school-partnership materials where the pedagogy needs to land fast.
+2. **"Ready, Inside and Out."** — most directly encodes the inner/outer layer of the Method; best for B2B/school-partnership materials where the pedagogy needs to be legible fast.
 3. **"Small Steps. Real Stars."** — most parent-facing/emotional; strongest for social media and enrolment marketing.
 4. "Where Readiness Begins." — category-claim register, closest to Stiaan's original "Inner Readiness" positioning; use for PR/thought-leadership, not on merchandise.
 
