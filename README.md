@@ -7,27 +7,30 @@ PROSTARS helps children build confidence, try new things, and feel proud of them
 **PROSTARS™ — created by a Canterbury child development specialist.**
 *(Naming note: the founder's name is deliberately not used anywhere in this repo's public-facing material, due to an 18-month restriction after leaving Playball. See the top of `PROSTARS_TEACHER_LAUNCH_KIT.md`.)*
 
-## Start here — Phase 1: the physical launch kit
+## Right now: visual identity — pick a world
 
-The founder's feedback was clear: she's a kindergarten teacher, not a technology founder, and she needs a logo and a programme, not a website or an app. This is what's live right now:
+- 🎨 [`docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md`](docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md) — brand DNA, what to avoid, and three complete visual directions
+- 🌟 [`docs/three-brand-worlds/index.html`](docs/three-brand-worlds/index.html) — **the actual pictures.** The Star Adventure, The Growth Garden, The Little Explorers — logo, mascot, palette, and a sample medal for each. Send this to Lal and ask: *"Which one feels like something you'd proudly put on a child's shirt?"* Her gut reaction picks the direction — nothing here is final until she reacts.
 
-- 📄 [`docs/PROSTARS_TEACHER_LAUNCH_KIT.md`](docs/PROSTARS_TEACHER_LAUNCH_KIT.md) — **start here.** Logo brief, the mascot Pip, colours, t-shirts, medal, certificate, parent pamphlet copy, and the first 8-week programme, session by session.
-- 🖼️ [`docs/welcome-to-prostars/index.html`](docs/welcome-to-prostars/index.html) — **"Welcome to PROSTARS ⭐"**, a printable picture book of all of it: the logo, Pip, the certificate, the medal, the t-shirts, and the 8-week plan. Open it in a browser and print, or share the link directly.
+## Phase 1: the physical launch kit
 
-Everything a class needs to run is in those two things. Nothing else in this repo needs to be read to get started.
+Once a world is picked, this is what runs the first class. The founder's feedback was clear: she's a kindergarten teacher, not a technology founder — she needs a logo and a programme, not a website or an app.
+
+- 📄 [`docs/PROSTARS_TEACHER_LAUNCH_KIT.md`](docs/PROSTARS_TEACHER_LAUNCH_KIT.md) — logo brief, the mascot, colours, t-shirts, medal, certificate, parent pamphlet copy, and the first 8-week programme, session by session
+- 🖼️ [`docs/welcome-to-prostars/index.html`](docs/welcome-to-prostars/index.html) — **"Welcome to PROSTARS ⭐"**, a printable picture book of it all, currently in the Star Adventure world's visuals — swap in whichever world Lal picks
 
 ## Background — the strategy behind it (Phase 2+)
 
 This is where PROSTARS came from, and where it can go once the first classes are running. None of it needs to happen before Phase 1 does.
 
 - [`docs/PROSTARS_MASTER_PLAN.md`](docs/PROSTARS_MASTER_PLAN.md) — founder story, brand summary, market position, the PROSTARS METHOD™, product roadmap, opportunity assessment
-- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the full brand system behind the launch kit
+- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the full brand system behind the launch kit (Star Adventure world)
 - [`docs/WEBSITE_BLUEPRINT.md`](docs/WEBSITE_BLUEPRINT.md) — Phase 2 website spec, once there are paying, retained families
 - [`docs/APP_ROADMAP.md`](docs/APP_ROADMAP.md) — Phase 3 mobile app spec, further out still
 - [`docs/FRANCHISE_MODEL.md`](docs/FRANCHISE_MODEL.md) — licensing/franchise structure, evaluated against the founder's own Playball experience
 - [`docs/INVESTOR_ONE_PAGER.md`](docs/INVESTOR_ONE_PAGER.md) — one-page pitch
 - [`docs/90_DAY_EXECUTION_PLAN.md`](docs/90_DAY_EXECUTION_PLAN.md) — day-by-day sequencing, written before the pivot to the teacher kit
-- [`docs/prototype/index.html`](docs/prototype/index.html) — an earlier, marketing-website-style visual prototype (kept for reference; the picture book above is the current visual deliverable)
+- [`docs/prototype/index.html`](docs/prototype/index.html) — an earlier, marketing-website-style visual prototype (kept for reference)
 
 ## Repo contents
 - `Images/` — early images and visual concepts gathered during the brand's development
