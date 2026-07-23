@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>PROSTARS — The Star Journey</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --indigo: #3b3a6e; --indigo-deep: #24234a; --coral: #ff7a59; --coral-deep: #e35f3c;
+    --green: #3f9c6e; --gold: #e8a930; --gold-deep: #c98a1c; --sand: #f6f1e7; --sand-deep: #ece2d0;
+    --card: #ffffff; --ink: #2b2233; --ink-soft: #5c5468; --line: rgba(43,34,51,.14);
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --indigo: #b3b1e8; --indigo-deep: #ffffff; --coral: #ff8f70; --coral-deep: #ffab92;
+    --green: #6cc79a; --gold: #f2c264; --gold-deep: #f2c264; --sand: #17152a; --sand-deep: #201e38;
+    --card: #211f3b; --ink: #efeaf5; --ink-soft: #b8b2c9; --line: rgba(239,234,245,.14);
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --indigo: #b3b1e8; --indigo-deep: #ffffff; --coral: #ff8f70; --coral-deep: #ffab92;
+      --green: #6cc79a; --gold: #f2c264; --gold-deep: #f2c264; --sand: #17152a; --sand-deep: #201e38;
+      --card: #211f3b; --ink: #efeaf5; --ink-soft: #b8b2c9; --line: rgba(239,234,245,.14);
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: var(--sand); color: var(--ink); font-family: 'Public Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: 'Baloo 2', sans-serif; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; margin: 0; }
+  p { margin: 0; }
+  img, svg { max-width: 100%; display: block; }
+
+  .top { max-width: 1100px; margin: 0 auto; padding: 48px 24px 8px; text-align: center; }
+  .top .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--green); }
+  .top h1 { font-size: clamp(26px, 3.5vw, 38px); margin-top: 10px; color: var(--indigo-deep); }
+  .top p { margin-top: 12px; font-size: 15px; color: var(--ink-soft); max-width: 60ch; margin-left: auto; margin-right: auto; }
+
+  .journey { max-width: 1100px; margin: 40px auto; padding: 0 24px 20px; position: relative; }
+  .track { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; position: relative; }
+  @media (max-width: 860px) { .track { grid-template-columns: 1fr; max-width: 340px; margin: 0 auto; } }
+
+  .rail { position: absolute; top: 108px; left: 8%; right: 8%; height: 3px; background: repeating-linear-gradient(90deg, var(--line) 0 10px, transparent 10px 18px); z-index: 0; }
+  @media (max-width: 860px) { .rail { display: none; } }
+
+  .tier { position: relative; z-index: 1; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 22px 16px 20px; text-align: center; box-shadow: 0 18px 36px -24px rgba(20,15,30,.35); }
+  .tier .age { font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-soft); }
+  .badge-stage { width: 108px; height: 108px; margin: 12px auto 8px; }
+  .badge-stage svg { width: 100%; height: 100%; }
+  .tier .emoji { font-size: 22px; }
+  .tier h3 { font-size: 17px; color: var(--indigo-deep); margin-top: 4px; }
+  .tier .desc { font-size: 12px; color: var(--ink-soft); margin-top: 6px; line-height: 1.45; }
+  .tier .cert-line { margin-top: 12px; font-size: 10.5px; font-style: italic; color: var(--coral-deep); background: color-mix(in srgb, var(--coral) 10%, transparent); border-radius: 8px; padding: 6px 8px; }
+  .tier .pct { margin-top: 10px; font-size: 10px; font-weight: 700; color: var(--gold-deep); letter-spacing: .05em; text-transform: uppercase; }
+
+  .note { max-width: 720px; margin: 10px auto 60px; padding: 0 24px; text-align: center; }
+  .note p { font-size: 13.5px; color: var(--ink-soft); line-height: 1.6; }
+  .note b { color: var(--indigo-deep); }
+</style>
+</head>
+<body>
+
+
+<div class="top">
+  <span class="eyebrow">PROSTARS™ — Star Adventure, refined</span>
+  <h1>The Star Journey</h1>
+  <p>One open star, becoming whole. The same mark from the logo, drawn a little further each time a child moves up an age stage — until, at the end, it finally closes.</p>
+</div>
+
+<div class="journey">
+  <div class="rail"></div>
+  <div class="track">
+
+    <div class="tier">
+      <div class="age">Age 3</div>
+      <div class="badge-stage"><svg viewBox="-120 -120 240 240">
+  <circle cx="0" cy="0" r="108" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <path pathLength="100" d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--coral)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="25 100"/>
+  <circle cx="0" cy="-96" r="9" fill="var(--gold)"/>
+</svg></div>
+      <div class="emoji">🌱</div>
+      <h3>Little Star</h3>
+      <div class="desc">First term. Just arriving, just belonging. The star is barely begun — and that's exactly right for three.</div>
+      <div class="pct">Star: 25% drawn</div>
+      <div class="cert-line">"Has taken her first steps as a Little Star."</div>
+    </div>
+
+    <div class="tier">
+      <div class="age">Ages 4–5</div>
+      <div class="badge-stage"><svg viewBox="-120 -120 240 240">
+  <circle cx="0" cy="0" r="108" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <path pathLength="100" d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--coral)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="55 100"/>
+  <circle cx="0" cy="-96" r="9" fill="var(--gold)"/>
+</svg></div>
+      <div class="emoji">⭐</div>
+      <h3>Growing Star</h3>
+      <div class="desc">This is Pip's own stage — trying, playing, building the five inner skills session by session.</div>
+      <div class="pct">Star: 55% drawn</div>
+      <div class="cert-line">"Has grown so much this term as a Growing Star."</div>
+    </div>
+
+    <div class="tier">
+      <div class="age">Ages 6–7</div>
+      <div class="badge-stage"><svg viewBox="-120 -120 240 240">
+  <circle cx="0" cy="0" r="108" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <path pathLength="100" d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--coral)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="82 100"/>
+  <circle cx="0" cy="-96" r="9" fill="var(--gold)"/>
+</svg></div>
+      <div class="emoji">✨</div>
+      <h3>Bright Star</h3>
+      <div class="desc">More independence, more leadership in the group. The star is almost whole — just one small gap left.</div>
+      <div class="pct">Star: 82% drawn</div>
+      <div class="cert-line">"Is shining bright as a confident Bright Star."</div>
+    </div>
+
+    <div class="tier">
+      <div class="age">Age 8</div>
+      <div class="badge-stage"><svg viewBox="-120 -120 240 240">
+  <circle cx="0" cy="0" r="108" fill="none" stroke="var(--gold)" stroke-width="2" opacity="0.4"/>
+  <path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="var(--gold)" stroke="var(--indigo)" stroke-width="6" stroke-linejoin="round"/>
+</svg></div>
+      <div class="emoji">🌟</div>
+      <h3>PROSTAR</h3>
+      <div class="desc">The point finally closes. Not the end — proof of everything built to get here.</div>
+      <div class="pct">Star: complete</div>
+      <div class="cert-line">"Is officially a PROSTAR."</div>
+    </div>
+
+  </div>
+</div>
+
+<div class="note">
+  <p><b>How this fits the eight-week programme:</b> every term still runs the same 8-week Confidence Adventure and ends with the usual weekly stickers, medal, and certificate. What changes as a child moves through age stages is which Star Journey badge that medal and certificate carry — so a returning family sees real, visible progress year over year, not just term over term.</p>
+</div>
+
+</body>
+</html>
