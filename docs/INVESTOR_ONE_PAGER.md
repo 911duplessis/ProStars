@@ -1,7 +1,9 @@
 # PROSTARS™ — Investor / Partner One-Pager
 
 **A children's development company for Canterbury, New Zealand.**
-Founder: Elanza Muller — experienced children's development specialist, teacher-trained, current owner of EM Muller Services (sapspoliceclearance.com).
+PROSTARS™ — created by a Canterbury child development specialist.
+
+*(Internal note — remove before sharing externally: this document is written with the founder's real background for accuracy. Her name should not appear in any copy shared with a school, parent, or investor — see the naming note in `PROSTARS_TEACHER_LAUNCH_KIT.md`.)*
 
 ---
 
@@ -12,7 +14,7 @@ Canterbury parents are stuck between two unsatisfying options: generic sport cla
 **PROSTARS** delivers the **PROSTARS METHOD™** — a two-layer framework that teaches five inner-readiness traits (Presence, Resilience, Observation, Social Connection, Trying) through movement and play, and generates three outer, visible proof-points (Achievement, Respect, Strength) parents can see and share every week. Priced at **$22–25/session** — deliberately positioned in the gap between sport and psychology, where parents don't need to understand the pedagogy; they already feel the problem.
 
 ### Why Now, Why Her
-Founder Elanza Muller has a teaching degree and years of hands-on experience delivering children's programmes across Canterbury, including with established providers such as Playball. That experience built a clear recognition: parents want more for their child than a sport class alone can offer — visible proof their child is becoming more confident and resilient, not just more skilled. She's also already a proven NZ small-business operator via EM Muller Services. This isn't a first-time founder's guess — it's an experienced children's development specialist building the version of this business she always knew was missing.
+The founder has a teaching degree and years of hands-on experience delivering children's programmes across Canterbury, including with established providers such as Playball. That experience built a clear recognition: parents want more for their child than a sport class alone can offer — visible proof their child is becoming more confident and resilient, not just more skilled. She's also already a proven NZ small-business operator via a separate, established business. This isn't a first-time founder's guess — it's an experienced children's development specialist building the version of this business she always knew was missing.
 
 ### Market
 - Canterbury, NZ, immediate addressable market: primary-school-aged children (4–8 core, expanding to 12) across Christchurch.
