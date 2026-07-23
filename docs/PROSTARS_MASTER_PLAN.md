@@ -1,9 +1,11 @@
 # PROSTARS™ — Master Plan
 
 **A children's development company for Canterbury, New Zealand.**
-Founder: Elanza Muller. Prepared: July 2026.
+PROSTARS™ — created by a Canterbury child development specialist. Prepared: July 2026.
 
-> This document is the single source of truth for the PROSTARS business. Companion documents — `BRAND_IDENTITY.md`, `WEBSITE_BLUEPRINT.md`, `APP_ROADMAP.md`, `FRANCHISE_MODEL.md`, `INVESTOR_ONE_PAGER.md`, `90_DAY_EXECUTION_PLAN.md` — sit alongside this in `/docs`.
+> This document is the single source of truth for the PROSTARS business. Companion documents — `PROSTARS_TEACHER_LAUNCH_KIT.md` (start here — the physical launch package), `BRAND_IDENTITY.md`, `WEBSITE_BLUEPRINT.md`, `APP_ROADMAP.md`, `FRANCHISE_MODEL.md`, `INVESTOR_ONE_PAGER.md`, `90_DAY_EXECUTION_PLAN.md` — sit alongside this in `/docs`.
+>
+> **Naming note:** because of an 18-month restriction on commercial use of the founder's name after leaving Playball, this document names her internally for context, but her name should not appear in anything shown to a school, parent, investor, or the public. See the naming section at the top of `PROSTARS_TEACHER_LAUNCH_KIT.md` for the wording to use instead.
 
 ---
 
@@ -166,4 +168,4 @@ All three options start with the **exact same Phase 1 actions**. Elanza does not
 
 ---
 
-*See also: `BRAND_IDENTITY.md` · `WEBSITE_BLUEPRINT.md` · `APP_ROADMAP.md` · `FRANCHISE_MODEL.md` · `INVESTOR_ONE_PAGER.md` · `90_DAY_EXECUTION_PLAN.md`*
+*See also: `PROSTARS_TEACHER_LAUNCH_KIT.md` · `BRAND_IDENTITY.md` · `WEBSITE_BLUEPRINT.md` · `APP_ROADMAP.md` · `FRANCHISE_MODEL.md` · `INVESTOR_ONE_PAGER.md` · `90_DAY_EXECUTION_PLAN.md`*
