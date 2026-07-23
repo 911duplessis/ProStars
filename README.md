@@ -7,11 +7,18 @@ PROSTARS helps children build confidence, try new things, and feel proud of them
 **PROSTARS™ — created by a Canterbury child development specialist.**
 *(Naming note: the founder's name is deliberately not used anywhere in this repo's public-facing material, due to an 18-month restriction after leaving Playball. See the top of `PROSTARS_TEACHER_LAUNCH_KIT.md`.)*
 
+## Right now: logo exploration
+
+Brand direction is locked (⭐ The Star Adventure). This stage explores how to *execute* that one idea, not new concepts.
+
+- 🖋️ [`docs/PROSTARS_LOGO_EXPLORATION.md`](docs/PROSTARS_LOGO_EXPLORATION.md) — five logo executions within Star Adventure, each rated on meaning, strengths, weaknesses, scalability, and how it holds up on a shirt, medal, and certificate. Includes a recommended hierarchy (one primary mark, plus purpose-specific variants) — not five competing options.
+- 🌈 [`docs/logo-exploration/index.html`](docs/logo-exploration/index.html) — the five marks, rendered, each shown on a shirt/medal/certificate.
+
 ## Brand direction: locked ⭐
 
-The founder reviewed three visual worlds and chose in two words: *"Star een."* ⭐ **The Star Adventure** is now the official PROSTARS identity — Pip the mascot, the Open Star mark, the indigo/coral/gold palette.
+The founder reviewed three visual worlds and chose in two words: *"Star een."* ⭐ **The Star Adventure** is the official PROSTARS identity — Pip the mascot, the Open Star mark, the indigo/coral/gold palette.
 
-- 🌟 [`docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md`](docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md) — **the current source of truth for the brand.** Final personality, logo refinement, Pip's development, age positioning (3 / 4–5 / 6–7 / 8), the Star Journey system, and how it flows into badges, certificates, t-shirts, the parent brochure, and the classroom.
+- 🌟 [`docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md`](docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md) — the brand system: final personality, logo refinement, Pip's development, age positioning (3 / 4–5 / 6–7 / 8), the Star Journey system, and how it flows into badges, certificates, t-shirts, the parent brochure, and the classroom.
 - 🌠 [`docs/star-journey/index.html`](docs/star-journey/index.html) — the age-tier system in one picture: the open star closing a little more at each stage, from Little Star (age 3) to a fully-formed PROSTAR (age 8). Came directly from the founder's own observation that the brand needed to "grow with the child."
 
 <details>
@@ -34,7 +41,7 @@ This is what runs the first class. The founder's feedback was clear early on: sh
 This is where PROSTARS came from, and where it can go once the first classes are running. None of it needs to happen before Phase 1 does.
 
 - [`docs/PROSTARS_MASTER_PLAN.md`](docs/PROSTARS_MASTER_PLAN.md) — founder story, brand summary, market position, the PROSTARS METHOD™, product roadmap, opportunity assessment
-- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the original full brand system write-up (Star Adventure world) — superseded on specifics by the Brand System doc above, still useful for the underlying rationale
+- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the original full brand system write-up (Star Adventure world) — superseded on specifics by the Brand System and Logo Exploration docs above, still useful for the underlying rationale
 - [`docs/WEBSITE_BLUEPRINT.md`](docs/WEBSITE_BLUEPRINT.md) — Phase 2 website spec, once there are paying, retained families
 - [`docs/APP_ROADMAP.md`](docs/APP_ROADMAP.md) — Phase 3 mobile app spec, further out still
 - [`docs/FRANCHISE_MODEL.md`](docs/FRANCHISE_MODEL.md) — licensing/franchise structure, evaluated against the founder's own Playball experience
