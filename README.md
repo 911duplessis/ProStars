@@ -7,24 +7,41 @@ PROSTARS helps children build confidence, try new things, and feel proud of them
 **PROSTARS™ — created by a Canterbury child development specialist.**
 *(Naming note: the founder's name is deliberately not used anywhere in this repo's public-facing material, due to an 18-month restriction after leaving Playball. See the top of `PROSTARS_TEACHER_LAUNCH_KIT.md`.)*
 
-## Right now: visual identity — pick a world
+## Right now: logo exploration
 
-- 🎨 [`docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md`](docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md) — brand DNA, what to avoid, and three complete visual directions
-- 🌟 [`docs/three-brand-worlds/index.html`](docs/three-brand-worlds/index.html) — **the actual pictures.** The Star Adventure, The Growth Garden, The Little Explorers — logo, mascot, palette, and a sample medal for each. Send this to Lal and ask: *"Which one feels like something you'd proudly put on a child's shirt?"* Her gut reaction picks the direction — nothing here is final until she reacts.
+Brand direction is locked (⭐ The Star Adventure). This stage explores how to *execute* that one idea, not new concepts.
+
+- 🖋️ [`docs/PROSTARS_LOGO_EXPLORATION.md`](docs/PROSTARS_LOGO_EXPLORATION.md) — five logo executions within Star Adventure, each rated on meaning, strengths, weaknesses, scalability, and how it holds up on a shirt, medal, and certificate. Includes a recommended hierarchy (one primary mark, plus purpose-specific variants) — not five competing options.
+- 🌈 [`docs/logo-exploration/index.html`](docs/logo-exploration/index.html) — the five marks, rendered, each shown on a shirt/medal/certificate.
+
+## Brand direction: locked ⭐
+
+The founder reviewed three visual worlds and chose in two words: *"Star een."* ⭐ **The Star Adventure** is the official PROSTARS identity — Pip the mascot, the Open Star mark, the indigo/coral/gold palette.
+
+- 🌟 [`docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md`](docs/PROSTARS_STAR_ADVENTURE_BRAND_SYSTEM.md) — the brand system: final personality, logo refinement, Pip's development, age positioning (3 / 4–5 / 6–7 / 8), the Star Journey system, and how it flows into badges, certificates, t-shirts, the parent brochure, and the classroom.
+- 🌠 [`docs/star-journey/index.html`](docs/star-journey/index.html) — the age-tier system in one picture: the open star closing a little more at each stage, from Little Star (age 3) to a fully-formed PROSTAR (age 8). Came directly from the founder's own observation that the brand needed to "grow with the child."
+
+<details>
+<summary>How we got here (exploration stage, now resolved)</summary>
+
+- [`docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md`](docs/PROSTARS_VISUAL_IDENTITY_EXPLORATION.md) — brand DNA, what to avoid, and the three original directions
+- [`docs/three-brand-worlds/index.html`](docs/three-brand-worlds/index.html) — Star Adventure, Growth Garden, and Little Explorers side by side — the founder picked Star Adventure from this page
+
+</details>
 
 ## Phase 1: the physical launch kit
 
-Once a world is picked, this is what runs the first class. The founder's feedback was clear: she's a kindergarten teacher, not a technology founder — she needs a logo and a programme, not a website or an app.
+This is what runs the first class. The founder's feedback was clear early on: she's a kindergarten teacher, not a technology founder — she needs a logo and a programme, not a website or an app.
 
-- 📄 [`docs/PROSTARS_TEACHER_LAUNCH_KIT.md`](docs/PROSTARS_TEACHER_LAUNCH_KIT.md) — logo brief, the mascot, colours, t-shirts, medal, certificate, parent pamphlet copy, and the first 8-week programme, session by session
-- 🖼️ [`docs/welcome-to-prostars/index.html`](docs/welcome-to-prostars/index.html) — **"Welcome to PROSTARS ⭐"**, a printable picture book of it all, currently in the Star Adventure world's visuals — swap in whichever world Lal picks
+- 📄 [`docs/PROSTARS_TEACHER_LAUNCH_KIT.md`](docs/PROSTARS_TEACHER_LAUNCH_KIT.md) — logo brief, the mascot, colours, t-shirts, medal, certificate, parent pamphlet copy, and the first 8-week programme, session by session. Its medal/certificate/completion-tee sections now get the age-tier treatment from the Star Adventure Brand System above.
+- 🖼️ [`docs/welcome-to-prostars/index.html`](docs/welcome-to-prostars/index.html) — **"Welcome to PROSTARS ⭐"**, a printable picture book of it all
 
 ## Background — the strategy behind it (Phase 2+)
 
 This is where PROSTARS came from, and where it can go once the first classes are running. None of it needs to happen before Phase 1 does.
 
 - [`docs/PROSTARS_MASTER_PLAN.md`](docs/PROSTARS_MASTER_PLAN.md) — founder story, brand summary, market position, the PROSTARS METHOD™, product roadmap, opportunity assessment
-- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the full brand system behind the launch kit (Star Adventure world)
+- [`docs/BRAND_IDENTITY.md`](docs/BRAND_IDENTITY.md) — the original full brand system write-up (Star Adventure world) — superseded on specifics by the Brand System and Logo Exploration docs above, still useful for the underlying rationale
 - [`docs/WEBSITE_BLUEPRINT.md`](docs/WEBSITE_BLUEPRINT.md) — Phase 2 website spec, once there are paying, retained families
 - [`docs/APP_ROADMAP.md`](docs/APP_ROADMAP.md) — Phase 3 mobile app spec, further out still
 - [`docs/FRANCHISE_MODEL.md`](docs/FRANCHISE_MODEL.md) — licensing/franchise structure, evaluated against the founder's own Playball experience

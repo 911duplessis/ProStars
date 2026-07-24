@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>PROSTARS — Logo Exploration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --indigo: #3b3a6e; --indigo-deep: #24234a; --coral: #ff7a59; --coral-deep: #e35f3c;
+    --green: #3f9c6e; --gold: #e8a930; --gold-deep: #c98a1c; --sand: #f6f1e7; --sand-deep: #ece2d0;
+    --card: #ffffff; --ink: #2b2233; --ink-soft: #5c5468; --line: rgba(43,34,51,.14);
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --indigo: #b3b1e8; --indigo-deep: #ffffff; --coral: #ff8f70; --coral-deep: #ffab92;
+    --green: #6cc79a; --gold: #f2c264; --gold-deep: #f2c264; --sand: #17152a; --sand-deep: #201e38;
+    --card: #211f3b; --ink: #efeaf5; --ink-soft: #b8b2c9; --line: rgba(239,234,245,.14);
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --indigo: #b3b1e8; --indigo-deep: #ffffff; --coral: #ff8f70; --coral-deep: #ffab92;
+      --green: #6cc79a; --gold: #f2c264; --gold-deep: #f2c264; --sand: #17152a; --sand-deep: #201e38;
+      --card: #211f3b; --ink: #efeaf5; --ink-soft: #b8b2c9; --line: rgba(239,234,245,.14);
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: var(--sand-deep); color: var(--ink); font-family: 'Public Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: 'Baloo 2', sans-serif; font-weight: 800; letter-spacing: -0.01em; text-wrap: balance; margin: 0; }
+  p { margin: 0; }
+  img, svg { max-width: 100%; display: block; }
+
+  .top { max-width: 1080px; margin: 0 auto; padding: 44px 24px 8px; text-align: center; }
+  .top .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--green); }
+  .top h1 { font-size: clamp(24px, 3.2vw, 34px); margin-top: 10px; color: var(--indigo-deep); }
+  .top p { margin-top: 12px; font-size: 14.5px; color: var(--ink-soft); max-width: 66ch; margin-left: auto; margin-right: auto; }
+
+  .list { max-width: 1080px; margin: 32px auto 60px; padding: 0 24px; display: flex; flex-direction: column; gap: 20px; }
+
+  .dir { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 24px; display: grid; grid-template-columns: auto 1fr; gap: 26px; align-items: center; box-shadow: 0 18px 40px -28px rgba(20,15,30,.35); }
+  @media (max-width: 760px) { .dir { grid-template-columns: 1fr; text-align: center; } }
+
+  .mark-stage { width: 116px; height: 116px; flex: none; margin: 0 auto; }
+  .mark-stage svg { width: 100%; height: 100%; }
+
+  .dir-body h2 { font-size: 19px; color: var(--indigo-deep); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .num { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; background: var(--indigo); color: #fff; font-size: 13px; }
+  .tag { font-size: 10.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; }
+  .tag.rec { background: color-mix(in srgb, var(--green) 16%, transparent); color: var(--green); }
+  .dir-desc { margin-top: 8px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; max-width: 62ch; }
+
+  .apps { margin-top: 16px; display: flex; gap: 14px; flex-wrap: wrap; justify-content: flex-start; }
+  @media (max-width: 760px) { .apps { justify-content: center; } }
+  .app { text-align: center; }
+  .app-stage { width: 56px; height: 56px; }
+  .app-stage svg { width: 100%; height: 100%; }
+  .app-label { font-size: 9.5px; color: var(--ink-soft); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; margin-top: 4px; }
+
+  .protect { max-width: 720px; margin: 0 auto 64px; padding: 28px 26px; text-align: center; background: var(--indigo); border-radius: 22px; color: #fff; }
+  .protect .k { font-size: 11.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); }
+  .protect p.line { margin-top: 12px; font-family: 'Baloo 2', sans-serif; font-weight: 600; font-size: 18px; line-height: 1.5; text-wrap: balance; }
+</style>
+</head>
+<body>
+
+
+<div class="top">
+  <span class="eyebrow">PROSTARS™ — Logo Exploration, inside Star Adventure</span>
+  <h1>Five ways to draw one idea</h1>
+  <p>The direction is locked. This is not five brands — it's five executions of the same job: a star that begins open and becomes whole. Every mark below has to work on a website, a child's shirt, a medal, and a certificate.</p>
+</div>
+
+<div class="list">
+
+  <div class="dir">
+    <div class="mark-stage"><svg viewBox="-120 -120 240 240"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/></svg></div>
+    <div class="dir-body">
+      <h2><span class="num">1</span>The Growing Star <span class="tag rec">Recommended — primary mark</span></h2>
+      <p class="dir-desc">The open star, exactly as already in use. One point left undrawn — the logo <em>is</em> the idea: every child is a star still becoming. Powers the whole Star Journey system without needing a second mark invented for it.</p>
+      <div class="apps">
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 108 110"><path d="M 20 10 L 45 10 Q 50 0 60 0 Q 70 0 75 10 L 100 10 L 92 35 L 80 28 L 80 100 L 20 100 L 20 28 L 8 35 Z" fill="var(--sand)" stroke="var(--line)" stroke-width="1.5"/><g transform="translate(54,44) scale(0.115)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/></g></svg></div><div class="app-label">Shirt</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="var(--card)" stroke="var(--line)" stroke-width="2"/><g transform="translate(60,60) scale(0.34)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/></g></svg></div><div class="app-label">Medal</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 140 100"><rect x="4" y="4" width="132" height="92" rx="4" fill="var(--sand)" stroke="var(--indigo)" stroke-width="3"/><g transform="translate(34,48) scale(0.155)" opacity="0.92"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/></g><rect x="58" y="34" width="62" height="6" rx="3" fill="var(--line)"/><rect x="58" y="47" width="46" height="5" rx="2.5" fill="var(--line)"/><rect x="58" y="59" width="52" height="5" rx="2.5" fill="var(--line)"/></svg></div><div class="app-label">Certificate</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dir">
+    <div class="mark-stage"><svg viewBox="-120 -120 240 240"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/><circle cx="-22" cy="10" r="9" fill="var(--indigo-deep)"/><circle cx="22" cy="10" r="9" fill="var(--indigo-deep)"/><path d="M -20 30 Q 0 46 20 30" fill="none" stroke="var(--indigo-deep)" stroke-width="7" stroke-linecap="round"/></svg></div>
+    <div class="dir-body">
+      <h2><span class="num">2</span>Pip the Star Mascot</h2>
+      <p class="dir-desc">Pip's own face, set directly inside the open star outline — logo and mascot merged into one compact mark. Best as a secondary icon (app icon, favicon, social avatar) where warmth needs to read at a small size, not as the primary formal mark.</p>
+      <div class="apps">
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 108 110"><path d="M 20 10 L 45 10 Q 50 0 60 0 Q 70 0 75 10 L 100 10 L 92 35 L 80 28 L 80 100 L 20 100 L 20 28 L 8 35 Z" fill="var(--sand)" stroke="var(--line)" stroke-width="1.5"/><g transform="translate(54,44) scale(0.115)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/><circle cx="-22" cy="10" r="9" fill="var(--indigo-deep)"/><circle cx="22" cy="10" r="9" fill="var(--indigo-deep)"/><path d="M -20 30 Q 0 46 20 30" fill="none" stroke="var(--indigo-deep)" stroke-width="7" stroke-linecap="round"/></g></svg></div><div class="app-label">Shirt</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="var(--card)" stroke="var(--line)" stroke-width="2"/><g transform="translate(60,60) scale(0.34)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/><circle cx="-22" cy="10" r="9" fill="var(--indigo-deep)"/><circle cx="22" cy="10" r="9" fill="var(--indigo-deep)"/><path d="M -20 30 Q 0 46 20 30" fill="none" stroke="var(--indigo-deep)" stroke-width="7" stroke-linecap="round"/></g></svg></div><div class="app-label">Medal</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 140 100"><rect x="4" y="4" width="132" height="92" rx="4" fill="var(--sand)" stroke="var(--indigo)" stroke-width="3"/><g transform="translate(34,48) scale(0.155)" opacity="0.92"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98" fill="none" stroke="var(--coral)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-96" r="9" fill="var(--gold)"/><circle cx="-22" cy="10" r="9" fill="var(--indigo-deep)"/><circle cx="22" cy="10" r="9" fill="var(--indigo-deep)"/><path d="M -20 30 Q 0 46 20 30" fill="none" stroke="var(--indigo-deep)" stroke-width="7" stroke-linecap="round"/></g><rect x="58" y="34" width="62" height="6" rx="3" fill="var(--line)"/><rect x="58" y="47" width="46" height="5" rx="2.5" fill="var(--line)"/><rect x="58" y="59" width="52" height="5" rx="2.5" fill="var(--line)"/></svg></div><div class="app-label">Certificate</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dir">
+    <div class="mark-stage"><svg viewBox="-120 -120 240 240"><circle cx="-70" cy="90" r="9" fill="var(--indigo)"/><circle cx="-38" cy="52" r="9" fill="var(--indigo)"/><circle cx="-4" cy="16" r="9" fill="var(--indigo)"/><circle cx="30" cy="-20" r="9" fill="var(--indigo)"/><path d="M -70 90 L -38 52 L -4 16 L 30 -20" fill="none" stroke="var(--line)" stroke-width="5" stroke-dasharray="1 11" stroke-linecap="round"/><g transform="translate(72,-72) scale(1.1)"><path d="M 0.0 -46.0 L 11.76 -16.18 L 43.75 -14.21 L 19.02 6.18 L 27.04 37.21 L 0.0 20.0 L -27.04 37.21 L -19.02 6.18 L -43.75 -14.21 L -11.76 -16.18 Z" fill="var(--gold)"/></g></svg></div>
+    <div class="dir-body">
+      <h2><span class="num">3</span>Star + Path</h2>
+      <p class="dir-desc">A small trail of steps rising to a star. Reads as "journey" instantly, which makes it a strong fit for progress charts and certificates later — but it's a weaker standalone logo, since a path-plus-star needs room to breathe and gets muddy at badge size.</p>
+      <div class="apps">
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 108 110"><path d="M 20 10 L 45 10 Q 50 0 60 0 Q 70 0 75 10 L 100 10 L 92 35 L 80 28 L 80 100 L 20 100 L 20 28 L 8 35 Z" fill="var(--sand)" stroke="var(--line)" stroke-width="1.5"/><g transform="translate(54,44) scale(0.115)"><circle cx="-70" cy="90" r="9" fill="var(--indigo)"/><circle cx="-38" cy="52" r="9" fill="var(--indigo)"/><circle cx="-4" cy="16" r="9" fill="var(--indigo)"/><circle cx="30" cy="-20" r="9" fill="var(--indigo)"/><path d="M -70 90 L -38 52 L -4 16 L 30 -20" fill="none" stroke="var(--line)" stroke-width="5" stroke-dasharray="1 11" stroke-linecap="round"/><g transform="translate(72,-72) scale(1.1)"><path d="M 0.0 -46.0 L 11.76 -16.18 L 43.75 -14.21 L 19.02 6.18 L 27.04 37.21 L 0.0 20.0 L -27.04 37.21 L -19.02 6.18 L -43.75 -14.21 L -11.76 -16.18 Z" fill="var(--gold)"/></g></g></svg></div><div class="app-label">Shirt</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="var(--card)" stroke="var(--line)" stroke-width="2"/><g transform="translate(60,60) scale(0.34)"><circle cx="-70" cy="90" r="9" fill="var(--indigo)"/><circle cx="-38" cy="52" r="9" fill="var(--indigo)"/><circle cx="-4" cy="16" r="9" fill="var(--indigo)"/><circle cx="30" cy="-20" r="9" fill="var(--indigo)"/><path d="M -70 90 L -38 52 L -4 16 L 30 -20" fill="none" stroke="var(--line)" stroke-width="5" stroke-dasharray="1 11" stroke-linecap="round"/><g transform="translate(72,-72) scale(1.1)"><path d="M 0.0 -46.0 L 11.76 -16.18 L 43.75 -14.21 L 19.02 6.18 L 27.04 37.21 L 0.0 20.0 L -27.04 37.21 L -19.02 6.18 L -43.75 -14.21 L -11.76 -16.18 Z" fill="var(--gold)"/></g></g></svg></div><div class="app-label">Medal</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 140 100"><rect x="4" y="4" width="132" height="92" rx="4" fill="var(--sand)" stroke="var(--indigo)" stroke-width="3"/><g transform="translate(34,48) scale(0.155)" opacity="0.92"><circle cx="-70" cy="90" r="9" fill="var(--indigo)"/><circle cx="-38" cy="52" r="9" fill="var(--indigo)"/><circle cx="-4" cy="16" r="9" fill="var(--indigo)"/><circle cx="30" cy="-20" r="9" fill="var(--indigo)"/><path d="M -70 90 L -38 52 L -4 16 L 30 -20" fill="none" stroke="var(--line)" stroke-width="5" stroke-dasharray="1 11" stroke-linecap="round"/><g transform="translate(72,-72) scale(1.1)"><path d="M 0.0 -46.0 L 11.76 -16.18 L 43.75 -14.21 L 19.02 6.18 L 27.04 37.21 L 0.0 20.0 L -27.04 37.21 L -19.02 6.18 L -43.75 -14.21 L -11.76 -16.18 Z" fill="var(--gold)"/></g></g><rect x="58" y="34" width="62" height="6" rx="3" fill="var(--line)"/><rect x="58" y="47" width="46" height="5" rx="2.5" fill="var(--line)"/><rect x="58" y="59" width="52" height="5" rx="2.5" fill="var(--line)"/></svg></div><div class="app-label">Certificate</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dir">
+    <div class="mark-stage"><svg viewBox="-120 -120 240 240"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--indigo)" stroke-width="5"/></svg></div>
+    <div class="dir-body">
+      <h2><span class="num">4</span>Premium Education Mark</h2>
+      <p class="dir-desc">A thinner, fully closed, single-colour star — no mascot warmth, no gold. The direction to keep in reserve specifically for school-partnership materials and any future franchise paperwork, where "premium and credible" needs to outrank "warm and playful" for a moment.</p>
+      <div class="apps">
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 108 110"><path d="M 20 10 L 45 10 Q 50 0 60 0 Q 70 0 75 10 L 100 10 L 92 35 L 80 28 L 80 100 L 20 100 L 20 28 L 8 35 Z" fill="var(--sand)" stroke="var(--line)" stroke-width="1.5"/><g transform="translate(54,44) scale(0.115)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--indigo)" stroke-width="5"/></g></svg></div><div class="app-label">Shirt</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="var(--card)" stroke="var(--line)" stroke-width="2"/><g transform="translate(60,60) scale(0.34)"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--indigo)" stroke-width="5"/></g></svg></div><div class="app-label">Medal</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 140 100"><rect x="4" y="4" width="132" height="92" rx="4" fill="var(--sand)" stroke="var(--indigo)" stroke-width="3"/><g transform="translate(34,48) scale(0.155)" opacity="0.92"><path d="M 0.0 -96.0 L 24.69 -33.98 L 91.3 -29.67 L 39.94 12.98 L 56.43 77.67 L 0.0 42.0 L -56.43 77.67 L -39.94 12.98 L -91.3 -29.67 L -24.69 -33.98 Z" fill="none" stroke="var(--indigo)" stroke-width="5"/></g><rect x="58" y="34" width="62" height="6" rx="3" fill="var(--line)"/><rect x="58" y="47" width="46" height="5" rx="2.5" fill="var(--line)"/><rect x="58" y="59" width="52" height="5" rx="2.5" fill="var(--line)"/></svg></div><div class="app-label">Certificate</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dir">
+    <div class="mark-stage"><svg viewBox="-120 -120 240 240"><path d="M 0.0 -78.0 L 17.6 -65.68 L 39.0 -67.55 L 48.08 -48.08 L 67.55 -39.0 L 65.68 -17.6 L 78.0 0.0 L 65.68 17.6 L 67.55 39.0 L 48.08 48.08 L 39.0 67.55 L 17.6 65.68 L 0.0 78.0 L -17.6 65.68 L -39.0 67.55 L -48.08 48.08 L -67.55 39.0 L -65.68 17.6 L -78.0 0.0 L -65.68 -17.6 L -67.55 -39.0 L -48.08 -48.08 L -39.0 -67.55 L -17.6 -65.68 Z" fill="none" stroke="var(--indigo)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M 0.0 -38.0 L 9.4 -12.94 L 36.14 -11.74 L 15.22 4.94 L 22.34 30.74 L 0.0 16.0 L -22.34 30.74 L -15.22 4.94 L -36.14 -11.74 L -9.4 -12.94 Z" fill="var(--gold)"/></svg></div>
+    <div class="dir-body">
+      <h2><span class="num">5</span>Badge Star <span class="tag rec">Recommended — medal-specific mark</span></h2>
+      <p class="dir-desc">The star set inside a scalloped badge edge — reads as "medal" the instant you see it. Already effectively how the PROSTAR-tier medal works in the Star Journey system. Too heavy for everyday use (website, pamphlet), but exactly right anywhere something is being awarded.</p>
+      <div class="apps">
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 108 110"><path d="M 20 10 L 45 10 Q 50 0 60 0 Q 70 0 75 10 L 100 10 L 92 35 L 80 28 L 80 100 L 20 100 L 20 28 L 8 35 Z" fill="var(--sand)" stroke="var(--line)" stroke-width="1.5"/><g transform="translate(54,44) scale(0.115)"><path d="M 0.0 -78.0 L 17.6 -65.68 L 39.0 -67.55 L 48.08 -48.08 L 67.55 -39.0 L 65.68 -17.6 L 78.0 0.0 L 65.68 17.6 L 67.55 39.0 L 48.08 48.08 L 39.0 67.55 L 17.6 65.68 L 0.0 78.0 L -17.6 65.68 L -39.0 67.55 L -48.08 48.08 L -67.55 39.0 L -65.68 17.6 L -78.0 0.0 L -65.68 -17.6 L -67.55 -39.0 L -48.08 -48.08 L -39.0 -67.55 L -17.6 -65.68 Z" fill="none" stroke="var(--indigo)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M 0.0 -38.0 L 9.4 -12.94 L 36.14 -11.74 L 15.22 4.94 L 22.34 30.74 L 0.0 16.0 L -22.34 30.74 L -15.22 4.94 L -36.14 -11.74 L -9.4 -12.94 Z" fill="var(--gold)"/></g></svg></div><div class="app-label">Shirt</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" fill="var(--card)" stroke="var(--line)" stroke-width="2"/><g transform="translate(60,60) scale(0.34)"><path d="M 0.0 -78.0 L 17.6 -65.68 L 39.0 -67.55 L 48.08 -48.08 L 67.55 -39.0 L 65.68 -17.6 L 78.0 0.0 L 65.68 17.6 L 67.55 39.0 L 48.08 48.08 L 39.0 67.55 L 17.6 65.68 L 0.0 78.0 L -17.6 65.68 L -39.0 67.55 L -48.08 48.08 L -67.55 39.0 L -65.68 17.6 L -78.0 0.0 L -65.68 -17.6 L -67.55 -39.0 L -48.08 -48.08 L -39.0 -67.55 L -17.6 -65.68 Z" fill="none" stroke="var(--indigo)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M 0.0 -38.0 L 9.4 -12.94 L 36.14 -11.74 L 15.22 4.94 L 22.34 30.74 L 0.0 16.0 L -22.34 30.74 L -15.22 4.94 L -36.14 -11.74 L -9.4 -12.94 Z" fill="var(--gold)"/></g></svg></div><div class="app-label">Medal</div></div>
+        <div class="app"><div class="app-stage"><svg viewBox="0 0 140 100"><rect x="4" y="4" width="132" height="92" rx="4" fill="var(--sand)" stroke="var(--indigo)" stroke-width="3"/><g transform="translate(34,48) scale(0.155)" opacity="0.92"><path d="M 0.0 -78.0 L 17.6 -65.68 L 39.0 -67.55 L 48.08 -48.08 L 67.55 -39.0 L 65.68 -17.6 L 78.0 0.0 L 65.68 17.6 L 67.55 39.0 L 48.08 48.08 L 39.0 67.55 L 17.6 65.68 L 0.0 78.0 L -17.6 65.68 L -39.0 67.55 L -48.08 48.08 L -67.55 39.0 L -65.68 17.6 L -78.0 0.0 L -65.68 -17.6 L -67.55 -39.0 L -48.08 -48.08 L -39.0 -67.55 L -17.6 -65.68 Z" fill="none" stroke="var(--indigo)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M 0.0 -38.0 L 9.4 -12.94 L 36.14 -11.74 L 15.22 4.94 L 22.34 30.74 L 0.0 16.0 L -22.34 30.74 L -15.22 4.94 L -36.14 -11.74 L -9.4 -12.94 Z" fill="var(--gold)"/></g><rect x="58" y="34" width="62" height="6" rx="3" fill="var(--line)"/><rect x="58" y="47" width="46" height="5" rx="2.5" fill="var(--line)"/><rect x="58" y="59" width="52" height="5" rx="2.5" fill="var(--line)"/></svg></div><div class="app-label">Certificate</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="protect">
+  <div class="k">The idea worth protecting</div>
+  <p class="line">"Every child starts as a star. Our programme helps them discover how brightly they can shine."</p>
+</div>
+
+</body>
+</html>
